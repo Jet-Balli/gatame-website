@@ -55,6 +55,7 @@ a.unique-cta-button {
     padding: 10px 20px;
     border: none;
     text-decoration: none;
+    border-radius: 5px;
     font-weight: bold;
     transition: background 0.3s;
     float: right;
