@@ -17,6 +17,27 @@ body {
     margin: 0 auto;
     max-width: 1200px;
 }
+@media screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      width: 95%;
+    }
+  
+    /* Adjust navigation for mobile */
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    /* Make images responsive */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+}
 
 h1, h2, h3 {
     margin-bottom: 20px;
