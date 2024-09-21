@@ -166,6 +166,27 @@ a.unique-cta-button {
     margin-bottom: 10px;
 }
 
+/* Blog Section*/
+.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-list li {
+    margin-bottom: 2em;
+}
+
+.post-meta {
+    color: #666;
+    font-style: italic;
+}
+
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
 /* Contact Section */
 .contact {
     padding: 60px 0;
